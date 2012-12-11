@@ -16,10 +16,6 @@
   <remote name="aokp"
           fetch="git://github.com/AOKP/" />
 
-  <remote name="cm"
-         fetch="git://github.com/CyanogenMod/"
-        review="review.cyanogenmod.com" />
-
   <project path="build" name="platform_build" revision="jb-mr1" remote="thinkingbridge">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -35,7 +31,7 @@
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
   <project path="device/generic/armv7-a" name="device/generic/armv7-a" />
   <project path="device/generic/common" name="device/generic/common" />
-  <project path="device/samsung/crespo" name="platform_device_samsung_crespo" remote="thinkingbridge" revision="jb-mr1" />
+  <project path="device/samsung/crespo" name="android_device_samsung_crespo" remote="thinkingbridge" revision="jb-mr1" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" />
   <project path="device/generic/mips" name="device/generic/mips" />
   <project path="device/generic/x86" name="device/generic/x86" />
@@ -60,7 +56,6 @@
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/bzip2" name="platform/external/bzip2" />
-  <project path="external/busybox" name="android_external_busybox" remote="cm" revision="mr1-staging" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" />
   <project path="external/chromium" name="platform/external/chromium" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" />
